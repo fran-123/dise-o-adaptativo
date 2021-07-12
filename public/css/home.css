@@ -1,0 +1,159 @@
+/* header */
+body.home{
+    background-color: rgba(128, 128, 128, 0.097);
+    box-sizing: border-box;
+}
+.home .home-menu{
+    background-color: var(--color-amarillo);
+    
+}
+.home header img{
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.home header .buscador{
+    display: inline-block;
+    background-color: var(--color-Gris-claro);
+    margin-left: 20px;
+    border: 1px solid black;
+    text-align: left;
+    width: 300px;
+    height: 40px;
+}
+.home header .buscador p{
+    display: inline-block;
+    font-size: 18px;
+    color: var(--color-Gris-oscuro);
+    padding-left: 10px;
+
+}
+.home header .buscador .lupa i{
+   margin-top: 35px;
+   background-color:white;
+   padding: 10px;
+   border: 1px solid black;
+   border-radius: 10px;
+}
+.home header .compras-cuotas i{
+    padding-right: 5px;
+}
+.home header .compras-cuotas{
+    text-align: center;
+}
+.home header ul{
+    list-style-type: none;
+    padding: 5px;
+    display: none;
+}
+.home header ul li a{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.home header .separacion{
+    padding-bottom: 10px;
+}
+
+.home .burger-menu{
+    text-align: center;
+    color: var(--color-Gris-claro);
+}
+
+.home .burger-menu i{
+    background-color: var(--color-Azul);
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 15px;
+}
+
+/* main */
+.home main{
+    width: 90%;
+    margin-left: 5%;
+   
+}
+
+.home main .banner img{
+    width: 100%;
+    display: none;
+}
+
+.home .ultimas-visitas img{
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+}
+.home .ofertas img{
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.home main .productos{
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.home main .datos-product i{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid var(--color-Verde);
+    padding: 10px;
+    padding-top: 13px;
+    border-radius: 100px;
+    color: var(--color-Verde) ;
+}
+
+.home main .productos .descripcion{
+    margin-top: 10px;
+}
+
+.home main .datos-product{
+    
+    margin: auto 15px auto 15px;
+}
+
+.home main .productos .oferta{
+    color: var(--color-Verde) ;
+}
+
+/* footer */
+
+.footer{
+    text-align: center;
+}
+
+.footer section i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--color-Celeste);
+}
+
+@media (min-width: 361px){
+    .productos{
+        box-shadow:0px 0px 10px rgb(100, 100, 100); ;
+        margin: 0 auto;
+    }
+    .home .burger-menu{
+        display: none;
+    }
+    .home header ul{
+        display: inline-block;
+    }
+    .home main .banner img{
+        display: block;
+    }
+
+}
+
+
+@media (min-width: 769px){
+    *{
+        box-sizing:0px 0px 10px rgb(100, 100, 100); ;
+    }
+
+    
+}
